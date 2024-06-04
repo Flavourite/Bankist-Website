@@ -461,3 +461,9 @@ console.log(h1.parentElement.children);
 // [...h1.parentElement.children].forEach(el => {
 //   if (el !== h1) el.style.transform = 'scale(.5)';
 // });
+
+const newFeature = function () {
+  console.log('Welcom to the application!');
+};
+
+newFeature();
